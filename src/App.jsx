@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import React from 'react'
+import Routing from './router/Routing'
 
 function App() {
 
   return (
-    <h1>
-      Hola mundo
-    </h1>
+    <div className='layout'>
+      <Routing />
+    </div>
   )
 }
 
